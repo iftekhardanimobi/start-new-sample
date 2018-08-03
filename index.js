@@ -53,8 +53,12 @@ app.get("/", function(req, res) {
 });
 
 app.post("/login", function(req, res) {
+<<<<<<< HEAD
   console.log('+++++++++++++');
   console.log(req);
+=======
+  console.log(req.body);
+>>>>>>> 1a59e7d... passport jwt authentication
   if(req.body.name && req.body.password){
     var name = req.body.name;
     var password = req.body.password;
