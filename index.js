@@ -14,13 +14,8 @@ var JwtStrategy = passportJWT.Strategy;
 var users = [
   {
     id: 1,
-    name: 'iftekhar',
+    name: 'iftekhardani',
     password: 'dani'
-  },
-  {
-    id: 2,
-    name: 'test',
-    password: 'test'
   }
 ];
 
@@ -58,7 +53,8 @@ app.get("/", function(req, res) {
 });
 
 app.post("/login", function(req, res) {
-  console.log(req.body);
+  console.log('+++++++++++++');
+  console.log(req);
   if(req.body.name && req.body.password){
     var name = req.body.name;
     var password = req.body.password;
