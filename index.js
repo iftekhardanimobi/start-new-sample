@@ -16,11 +16,6 @@ var users = [
     id: 1,
     name: 'iftekhar',
     password: 'dani'
-  },
-  {
-    id: 2,
-    name: 'test',
-    password: 'test'
   }
 ];
 
